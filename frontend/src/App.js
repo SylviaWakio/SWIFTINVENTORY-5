@@ -39,16 +39,6 @@ function App() {
           />
         </Routes>
       </div>
-      {/* <div className="mt-10 font-roboto"> */}
-        {/* <Navbar/> */}
-        {/* <Routes> */}
-          {/* <Route path="/transaction" element={<Transaction />} /> */}
-          {/* <Route path="/salesform" element={<SalesForm />} />  */}
-
-
-
-        {/* </Routes> */}
-      {/* </div> */}
     </Router>
   );
 }
