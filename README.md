@@ -1,70 +1,71 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inventory managent system
 
-## Available Scripts
+This is an inventory Managment system built in the form of a web application developed in FLask and react using SQL as its database.
 
-In the project directory, you can run:
+This application can be used by any small to mid-sized stores to easily maintain and manage an inventory of all thier 
+    *Products
+    *Customers
+    *suppliers
+    *users
+    *Transactions
 
-### `npm start`
+## Features of the Application
+* Users can manageinventory and stock of all the products available in their store.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*Users can manage all sales and purchase transactions made by the stores.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Supports two user types :
+   i. Administrator
+   ii. Employee
+Admins hav ethe abilitynto manage all other personnel .
 
-### `npm test`
+*Any transaction made automaticaly handles the stock availability in the inventory .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Inventory tracking: 
+IMS systems track inventory levels in real time, so businesses can always know what they have on hand.
+Order management: IMS systems can help businesses manage their orders, including tracking order status, shipping, and invoicing.
 
-### `npm run build`
+*Reporting: 
+IMS systems can generate reports that provide businesses with information about their inventory levels, sales, and other key metrics.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Alerts and notifications: 
+IMS systems can send alerts and notifications to businesses when inventory levels are low or when orders need to be shipped.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Integration with other systems: 
+IMS systems can integrate with other business systems, such as accounting and customer relationship management (CRM) systems.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installations
+Login page
+The login page takes in the credentials entered by the user and verifies with the database.
 
-### `npm run eject`
+## Dashboard/Welcome Page
+The landing page of the application after a successful login.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Products
+The products section allows the user to add, edit and delete products from the store's inventory.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Current Stock
+This section allows the user to check the availability of every item.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Suppliers
+Here, the user can manage and manipulate the record of all the suppliers associated with the store.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Sales
+This section is where users can sell a product and manage all the sales transactions. The user only needs to enter the customer and product code and the software will handle the rest, showing all the necessary details like available stock and selling price of the product.
 
-## Learn More
+## Purchase
+This section is where users can view purchase logs and enter new purchase transactions. Similar to the sales section, this section only requires the user to enter the product code and the details that are already available in the database will immediately be displayed in the respective spaces.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Users
+This section is only available to ADMINISTRATORS. It allows them to view, add and delete any users.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## User Logs
+Stores and shows the administrator a log of all the users that have previously logged in, including their login time and logout time.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies used.
+The following are the technologies that have been used in the development of this project. All of them are free to use.
+*flask
+*react
+*msql
+*jwt

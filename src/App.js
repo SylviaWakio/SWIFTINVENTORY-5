@@ -1,46 +1,36 @@
+// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
-import Transaction from './components/Transaction';
-import SalesForm from './components/SalesForm';
-// import ProductForm from './components/productForm';
-// import ProductList from './components/ProductList';
-import './App.css';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './components/Login';
+import Signup from './components/Signup';
+import Welcome from './components/Welcome';
+import Dashboard from './components/Dashboard';
+import Users from './components/Users'; // Import the UserList component
+import Swift from './components/Swift'; // Import the Swift component
 
 function App() {
   return (
-    <Router>
-      <nav className="bg-green-500 p-4 text-black text-lg font-bold">
-        <ul className='container mx-auto flex justify-between'>
-          <li>
-            <Link to="/"></Link>
-          </li>
-          <li>
-          <Link to="/salesform">SALESFORM</Link>
-          </li>
-          <li>
-          <Link to="/transactions">TRANSACTIONS</Link>
-          </li>
-        </ul>
-      </nav>
-      <div>
+    <div className="App">
+      <Router>
         <Routes>
-          <Route 
-          path="/salesform"
-          element={(
-            <SalesForm />
-          )}
-          />
-          <Route
-          path="/transactions"
-          element={(
-            <Transaction />
-          )}
-          />
+          <Route path="/" element={<Welcome />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/dashboard/*" element={<Dashboard />} />
+
+          {/* Add a new route for the UserList component */}
+          <Route path="/users" element={<Users />} />
+
+          {/* Add a new route for the Swift component */}
+          <Route path="/swift" element={<Swift />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
 export default App;
+
+
+
+
