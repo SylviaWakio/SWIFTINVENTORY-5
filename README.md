@@ -1,3 +1,4 @@
+
 ## Inventory managent system
 
 This is an inventory Managment system built in the form of a web application developed in FLask and react using SQL as its database.
@@ -68,4 +69,3 @@ The following are the technologies that have been used in the development of thi
 *react
 *msql
 *jwt
-
