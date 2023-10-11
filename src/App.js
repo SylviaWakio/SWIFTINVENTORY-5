@@ -7,7 +7,7 @@ import Welcome from './components/Welcome';
 import Dashboard from './components/Dashboard';
 import Users from './components/Users'; // Import the UserList component
 import Swift from './components/Swift'; // Import the Swift component
-//defined all the routes
+
 function App() {
   return (
     <div className="App">
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Welcome />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboard/*" element={<Dashboard />} />
 
           {/* Add a new route for the UserList component */}
           <Route path="/users" element={<Users />} />
@@ -30,3 +30,7 @@ function App() {
 }
 
 export default App;
+
+
+
+

@@ -7,6 +7,8 @@ const Swift = () => {
     color: 'white',
     padding: '20px',
     textAlign: 'center',
+    fontFamily: 'Arial, sans-serif',
+    minHeight: '100vh',
   };
 
   const titleStyle = {
@@ -25,9 +27,14 @@ const Swift = () => {
     margin: '0 10px',
   };
 
+  const carDescriptionStyle = {
+    fontSize: '1.2rem',
+    marginTop: '20px',
+  };
+
   return (
-    <div>
-      <nav style={containerStyle}>
+    <div style={containerStyle}>
+      <nav>
         <ul className="flex justify-center space-x-4">
           <li>
             <Link to="/" style={linkStyle}>
@@ -47,11 +54,15 @@ const Swift = () => {
         </ul>
       </nav>
       <div className="container mx-auto max-w-sm">
-        <h1 style={titleStyle}>Welcome to Swift Store</h1>
+        <h1 style={titleStyle}><br/>Welcome to Swift Store</h1>
         <p>
-          This is the Swift Store page. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Vivamus vehicula ligula at massa
-          auctor, eu fermentum nisl faucibus.
+          Welcome to Swift Store, where you can find the latest and greatest cars.
+          Explore our wide selection of cars, from sleek sedans to powerful SUVs.
+          Our cars are designed for style and performance, ensuring an exhilarating driving experience.
+        </p>
+        <p style={carDescriptionStyle}>
+          Whether you're looking for a family car or a sports car, we have something for everyone.
+          Visit our showroom today and drive home in your dream car.
         </p>
       </div>
     </div>

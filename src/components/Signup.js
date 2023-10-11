@@ -11,7 +11,7 @@ const Signup = () => {
 
   const handleSignup = () => {
     axios
-      .post('http://127.0.0.1:5000/signup', {
+      .post('https://swiftinventory2023-f984d0fc6c43.herokuapp.com/signup', {
         name,
         email,
         password,
