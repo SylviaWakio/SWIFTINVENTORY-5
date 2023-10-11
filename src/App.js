@@ -7,7 +7,7 @@ import Welcome from './components/Welcome';
 import Dashboard from './components/Dashboard';
 import Users from './components/Users'; // Import the UserList component
 import Swift from './components/Swift'; // Import the Swift component
-//define the routes
+//defined all the routes
 function App() {
   return (
     <div className="App">

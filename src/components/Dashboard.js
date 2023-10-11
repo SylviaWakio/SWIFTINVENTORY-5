@@ -1,6 +1,7 @@
 import React from 'react';
 import UserList from './UserList';
 
+//defined the userlist in the dashboard
 const Dashboard = () => {
   return (
     <div>
