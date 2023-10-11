@@ -35,34 +35,34 @@ IMS systems can send alerts and notifications to businesses when inventory level
 IMS systems can integrate with other business systems, such as accounting and customer relationship management (CRM) systems.
 
 ## Installations
-##Login page
+Login page
 The login page takes in the credentials entered by the user and verifies with the database.
 
-##Dashboard/Welcome Page
+## Dashboard/Welcome Page
 The landing page of the application after a successful login.
 
-##Products
+## Products
 The products section allows the user to add, edit and delete products from the store's inventory.
 
-##Current Stock
+## Current Stock
 This section allows the user to check the availability of every item.
 
-##Suppliers
+## Suppliers
 Here, the user can manage and manipulate the record of all the suppliers associated with the store.
 
-##Sales
+## Sales
 This section is where users can sell a product and manage all the sales transactions. The user only needs to enter the customer and product code and the software will handle the rest, showing all the necessary details like available stock and selling price of the product.
 
-##Purchase
+## Purchase
 This section is where users can view purchase logs and enter new purchase transactions. Similar to the sales section, this section only requires the user to enter the product code and the details that are already available in the database will immediately be displayed in the respective spaces.
 
-##Users
+## Users
 This section is only available to ADMINISTRATORS. It allows them to view, add and delete any users.
 
-##User Logs
+## User Logs
 Stores and shows the administrator a log of all the users that have previously logged in, including their login time and logout time.
 
-##Technologies used.
+## Technologies used.
 The following are the technologies that have been used in the development of this project. All of them are free to use.
 *flask
 *react
