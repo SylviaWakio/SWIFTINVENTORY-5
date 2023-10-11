@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Outlet, Route, Routes, useNavigate } from 'react-router-dom';
 import Transaction from './Transaction';
 import SalesForm from './SalesForm';
-import ProductList from './ProductList';
+import ProductList from './productList';
 import ProductForm from './productForm';
 
 function Dashboard() {
